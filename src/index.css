@@ -1,0 +1,89 @@
+:root {
+  --wmp-blue-dark: #1f3b8b;
+  --wmp-blue-mid: #4a75c4;
+  --wmp-blue-light: #94b5f4;
+  --wmp-bg-dark: #000000;
+  --wmp-text-light: #ffffff;
+  --wmp-text-green: #4ade80;
+  --wmp-accent: #00ff00;
+  --wmp-silver: #e0e5ea;
+  --wmp-silver-dark: #9aa8b9;
+  
+  --wmp-grad-container: linear-gradient(to bottom, #d6e3f4, #b9cce6);
+  --wmp-grad-title: linear-gradient(to bottom, #0054e3 0%, #2585e5 8%, #0054e3 40%, #003cc5 100%);
+  --wmp-color-menubar: #fcfdfe;
+  --wmp-color-menubar-border: #99a8c0;
+  --wmp-grad-bottom: linear-gradient(to bottom, #d5e1f7, #b9cbf1);
+  --wmp-color-bottom-border: #7c9fdf;
+  --wmp-grad-btn: linear-gradient(to bottom, #fcfdfe, #e8f1fc);
+  --wmp-color-btn-border: #99a8c0;
+  
+  --wmp-text-menubar: #000000;
+  --wmp-text-btn: #1a3875;
+  --wmp-color-avatar-border: #1a3875;
+  
+  --wmp-grad-sidebar: linear-gradient(to right, #4679d6, #2d55b0);
+  --wmp-color-sidebar-border: #1a3875;
+  --wmp-grad-play-wrapper: radial-gradient(circle, #e6ecf5 0%, #b8cde8 100%);
+  --wmp-color-play-wrapper-border: #8fa8d1;
+  
+  --wmp-grad-btn-on: linear-gradient(to bottom, #4ade80 0%, #22c55e 50%, #16a34a 51%, #22c55e 100%);
+  --wmp-color-btn-on-border: #16a34a;
+}
+
+body[data-theme="oscuro"] {
+  --wmp-blue-dark: #0f1115;
+  --wmp-blue-mid: #1a1d24;
+  --wmp-blue-light: #2c313c;
+  --wmp-bg-dark: #0a0a0c;
+  --wmp-text-light: #e0e6ed;
+  --wmp-text-green: #6366f1;
+  --wmp-accent: #6366f1;
+  --wmp-silver: #1e2128;
+  --wmp-silver-dark: #2a2e37;
+  
+  --wmp-grad-container: #111418;
+  --wmp-grad-title: #1a1d24;
+  --wmp-color-menubar: #16181d;
+  --wmp-color-menubar-border: #2c313c;
+  --wmp-grad-bottom: #16181d;
+  --wmp-color-bottom-border: #2c313c;
+  --wmp-grad-btn: #2c313c;
+  --wmp-color-btn-border: #444c5e;
+  
+  --wmp-text-menubar: #e0e6ed;
+  --wmp-text-btn: #e0e6ed;
+  --wmp-color-avatar-border: #6366f1;
+  
+  --wmp-grad-sidebar: #111418;
+  --wmp-color-sidebar-border: #2c313c;
+  --wmp-grad-play-wrapper: #1a1d24;
+  --wmp-color-play-wrapper-border: #444c5e;
+  
+  --wmp-grad-btn-on: #6366f1;
+  --wmp-color-btn-on-border: #4f46e5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Tahoma', 'Segoe UI', sans-serif;
+  background-color: #1e1f22;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
