@@ -35,42 +35,6 @@
 
 ---
 
-## 🚀 Instalación y Uso Local
-
-1. **Clona el repositorio:**
-   ```bash
-   git clone https://github.com/TioCriZpy/crizpy-media-player.git
-   cd crizpy-media-player
-   ```
-
-2. **Instala dependencias:**
-   ```bash
-   npm install
-   ```
-
-3. **Configura variables de entorno:**
-   ```bash
-   cp .env.example .env
-   ```
-   Edita `.env` con tu API Key (la misma configurada en el cog `web_controller` mediante `!wc setkey`) y la URL de tu backend:
-   ```env
-   VITE_API_KEY=tu_api_key_aqui
-   VITE_API_TARGET=http://localhost:8710
-   VITE_ALLOWED_HOSTS=localhost,127.0.0.1
-   ```
-
-4. **Inicia en modo desarrollo o compila para producción:**
-   ```bash
-   # Desarrollo
-   npm run dev -- --host
-
-   # Producción
-   npm run build
-   npm run preview -- --host
-   ```
-
----
-
 ## 📄 Licencia
 
 Distribuido bajo licencia **MIT**. Consulta [LICENSE](LICENSE) para más información.
